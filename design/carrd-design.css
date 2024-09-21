@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExemlkM2g4eTluMXd5dDJ3NHN3YWZhazE5NXV6MWIzMTh2ZnoyejJwMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KB7Moe2Oj0BXeDjvDp/giphy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.crim-carrd{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.crim-carrd h1, .crim-carrd p{
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.carrd{
+    width: 600px;
+    height: 200px;
+    padding: 15px 0px 15px 0px;
+    margin: 0px auto 0px auto;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 20px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.crim-socials{
+    margin: 15px 0px 0px 0px ;
+}
+
+.soc-One, .soc-Two, .soc-Three{
+    transition: 0.5s;
+}
+
+.soc-One:hover, .soc-Two:hover, .soc-Three:hover{
+    padding-bottom: 10px;
+}
+
+@keyframes animation{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.crim-carrd{
+    animation: animation 1.5s ease-in;
+}
