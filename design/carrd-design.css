@@ -68,3 +68,25 @@ body{
 .crim-carrd{
     animation: animation 1.5s ease-in;
 }
+
+@media screen and (max-width: 700px){
+    .carrd{
+        width: 400px;
+        height: auto;
+    }
+
+    .crim-carrd h1, .crim-carrd p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .carrd{
+        width: 300px;
+        height: auto;
+    }
+
+    .crim-carrd h1, .crim-carrd p{
+        font-size: 25px;
+    }
+}
